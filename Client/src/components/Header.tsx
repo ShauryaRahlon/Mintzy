@@ -30,15 +30,8 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-2">
-            <Zap className="h-8 w-8 text-purple-400" />
-            {/*will replace this with company logo*/}
-            {/* <img
-              src="../../images/bg-removed.png"
-              alt="error"
-              height={100}
-              width={100}
-            /> */}
-            <span className="text-2xl font-bold bg-gradient-to-r from-purple-400 via-pink-400 to-pink-400 bg-clip-text text-transparent ">
+            <Zap className="h-8 w-8 text-cyan-400" />
+            <span className="text-2xl font-bold bg-gradient-to-r from-cyan-400 via-blue-400 to-blue-400 bg-clip-text text-transparent">
               Mintzy
             </span>
           </div>
@@ -46,19 +39,19 @@ const Header = () => {
           <nav className="hidden md:flex space-x-8">
             <button
               onClick={() => scrollToSection("features")}
-              className="text-gray-300 hover:text-purple-400 transition-colors"
+              className="text-gray-300 hover:text-cyan-400 transition-colors"
             >
               Features
             </button>
             <button
               onClick={() => scrollToSection("qa")}
-              className="text-gray-300 hover:text-purple-400 transition-colors"
+              className="text-gray-300 hover:text-cyan-400 transition-colors"
             >
               Q&A
             </button>
             <button
               onClick={() => scrollToSection("waitlist")}
-              className="text-gray-300 hover:text-purple-400 transition-colors"
+              className="text-gray-300 hover:text-cyan-400 transition-colors"
             >
               Waitlist
             </button>
@@ -81,19 +74,19 @@ const Header = () => {
             <nav className="flex flex-col space-y-4">
               <button
                 onClick={() => scrollToSection("features")}
-                className="text-gray-300 hover:text-purple-400 transition-colors text-left"
+                className="text-gray-300 hover:text-cyan-400 transition-colors text-left"
               >
                 Features
               </button>
               <button
                 onClick={() => scrollToSection("qa")}
-                className="text-gray-300 hover:text-purple-400 transition-colors text-left"
+                className="text-gray-300 hover:text-cyan-400 transition-colors text-left"
               >
                 Q&A
               </button>
               <button
                 onClick={() => scrollToSection("waitlist")}
-                className="text-gray-300 hover:text-purple-400 transition-colors text-left"
+                className="text-gray-300 hover:text-cyan-400 transition-colors text-left"
               >
                 Waitlist
               </button>

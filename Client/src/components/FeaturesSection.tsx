@@ -81,12 +81,12 @@ const FeaturesSection = () => {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="group bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-xl border border-gray-700 hover:border-purple-500 transition-all duration-300 hover:transform hover:scale-105 hover:shadow-xl hover:shadow-purple-500/10"
+              className="group bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-xl border border-gray-700 hover:border-cyan-500 transition-all duration-300 hover:transform hover:scale-105 hover:shadow-xl hover:shadow-cyan-500/10"
             >
-              <div className="text-purple-400 group-hover:text-purple-300 transition-colors mb-4">
+              <div className="text-cyan-400 group-hover:text-cyan-300 transition-colors mb-4">
                 {feature.icon}
               </div>
-              <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-purple-100 transition-colors">
+              <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-cyan-100 transition-colors">
                 {feature.title}
               </h3>
               <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
@@ -97,7 +97,7 @@ const FeaturesSection = () => {
         </div>
 
         <div className="mt-16 text-center">
-          <div className="bg-gradient-to-r from-purple-900/50 to-black/50 backdrop-blur-sm rounded-2xl p-8 border border-purple-500/20">
+          <div className="bg-gradient-to-r from-blue-900/50 to-black/50 backdrop-blur-sm rounded-2xl p-8 border border-cyan-500/20">
             <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
               Ready to Transform Your Business?
             </h3>
@@ -111,7 +111,7 @@ const FeaturesSection = () => {
                   .getElementById("waitlist")
                   ?.scrollIntoView({ behavior: "smooth" })
               }
-              className="px-8 py-3 bg-gradient-to-r from-purple-600 to-purple-700 text-white font-semibold rounded-full hover:from-purple-700 hover:to-purple-800 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-purple-500/25"
+              className="px-8 py-3 bg-gradient-to-r from-blue-600 to-cyan-600 text-white font-semibold rounded-full hover:from-blue-700 hover:to-cyan-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-cyan-500/25"
             >
               Get Early Access
             </button>

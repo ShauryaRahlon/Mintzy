@@ -42,18 +42,18 @@ const QASection = () => {
             understand your specific needs through our market research.
           </p>
 
-          <div className="bg-gradient-to-r from-purple-600 to-purple-700 rounded-2xl p-8 text-center max-w-2xl mx-auto mb-12">
+          <div className="bg-gradient-to-r from-blue-600 to-cyan-600 rounded-2xl p-8 text-center max-w-2xl mx-auto mb-12">
             <MessageCircle className="h-12 w-12 text-white mx-auto mb-4" />
             <h3 className="text-2xl font-bold text-white mb-4">
               Help Shape Our Product
             </h3>
-            <p className="text-purple-100 mb-6">
+            <p className="text-blue-100 mb-6">
               Your insights are valuable! Participate in our market research to
               help us build AI agents that perfectly match your business needs.
             </p>
             <button
               onClick={handleMarketResearchClick}
-              className="inline-flex items-center px-6 py-3 bg-white text-purple-700 font-semibold rounded-full hover:bg-gray-100 transform hover:scale-105 transition-all duration-300 shadow-lg"
+              className="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-semibold rounded-full hover:bg-gray-100 transform hover:scale-105 transition-all duration-300 shadow-lg"
             >
               <span>Take Market Research Survey</span>
               <ExternalLink className="ml-2 h-4 w-4" />
@@ -65,11 +65,11 @@ const QASection = () => {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-xl border border-gray-700 hover:border-purple-500 transition-all duration-300"
+              className="bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-xl border border-gray-700 hover:border-cyan-500 transition-all duration-300"
             >
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0">
-                  <HelpCircle className="h-6 w-6 text-purple-400 mt-1" />
+                  <HelpCircle className="h-6 w-6 text-cyan-400 mt-1" />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-white mb-3">
@@ -86,7 +86,7 @@ const QASection = () => {
           <p className="text-gray-400 mb-4">Still have questions?</p>
           <button
             onClick={handleMarketResearchClick}
-            className="text-purple-400 hover:text-purple-300 font-semibold transition-colors"
+            className="text-cyan-400 hover:text-cyan-300 font-semibold transition-colors"
           >
             Contact us through our research form →
           </button>
