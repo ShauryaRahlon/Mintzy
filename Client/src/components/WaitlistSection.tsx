@@ -15,7 +15,7 @@ const WaitlistSection = () => {
     };
     setIsLoading(true);
     axios
-      .post(import.meta.env.VITE_BACKEND_URL, data)
+      .post("http://localhost:5000/api/v1/register", data)
       .then(() => {
         setIsLoading(false);
         setIsSubmitted(true);

@@ -7,7 +7,7 @@ require('dotenv').config();
 const port = process.env.PORT;
 app.use(
     cors({
-        origin: process.env.FRONTEND_URL,
+        origin: '*',
         methods: ['GET', 'POST', 'PUT', 'DELETE'],
         credentials: true,
     })
