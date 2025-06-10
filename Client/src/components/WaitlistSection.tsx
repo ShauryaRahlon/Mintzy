@@ -15,7 +15,7 @@ const WaitlistSection = () => {
     };
     setIsLoading(true);
     axios
-      .post("http://localhost:5000/api/v1/register", data)
+      .post(import.meta.env.VITE_BACKEND_URL, data)
       .then(() => {
         setIsLoading(false);
         setIsSubmitted(true);
@@ -115,9 +115,16 @@ const WaitlistSection = () => {
               <button
                 type="submit"
                 disabled={isLoading || !email}
-                className="px-8 py-3 bg-gradient-to-r from-purple-600 to-purple-700 text-white font-semibold rounded-full hover:from-purple-700 hover:to-purple-800 disabled:opacity-50 disabled:cursor-not-allowed transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-purple-500/25"
+                className="px-8 py-3 bg-gradient-to-r from-purple-600 to-purple-700 text-white font-semibold rounded-full hover:from-purple-700 hover:to-purple-800 disabled:opacity-50 disabled:cursor-not-allowed transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-purple-500/25 flex items-center justify-center gap-2"
               >
-                {isLoading ? "Joining..." : "Join Waitlist"}
+                {isLoading ? (
+                  <>
+                    <span className="animate-spin rounded-full h-5 w-5 border-t-2 border-b-2 border-white"></span>
+                    Joining...
+                  </>
+                ) : (
+                  "Join Waitlist"
+                )}
               </button>
             </div>
           </form>
@@ -131,7 +138,7 @@ const WaitlistSection = () => {
             </div>
             <div className="bg-black/30 rounded-lg p-4">
               <div className="text-2xl font-bold text-purple-400 mb-1">
-                Q2 2024
+                Q2 2025
               </div>
               <div className="text-gray-300 text-sm">Expected Launch</div>
             </div>
