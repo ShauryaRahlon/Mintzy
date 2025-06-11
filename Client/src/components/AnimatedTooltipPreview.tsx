@@ -6,7 +6,8 @@ const people = [
     id: 1,
     name: "Tanmay Chaturvedi",
     designation: "CEO",
-    image: "../../Images/Tanmay.jpg",
+    image:
+      "https://res.cloudinary.com/ddly4mju8/image/upload/v1749682869/Tanmay_sylyne.jpg",
   },
   {
     id: 2,
