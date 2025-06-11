@@ -12,52 +12,52 @@ import {
 const FeaturesSection = () => {
   const features = [
     {
-      icon: <Brain className="h-8 w-8" />,
-      title: "Advanced AI Intelligence",
+      icon: <TrendingUp className="h-8 w-8" />,
+      title: "Personalized Market Forecasting",
       description:
-        "Our AI agents leverage cutting-edge machine learning to understand context, make decisions, and adapt to your business needs in real-time.",
+        "Market forecasts generated through advanced algorithms and real-time sentiment analysis. Each prediction is aligned with specific financial objectives to support accurate decision-making.",
     },
     {
       icon: <Zap className="h-8 w-8" />,
-      title: "Lightning Fast Automation",
+      title: "Custom Investment Strategies",
       description:
-        "Process thousands of tasks simultaneously with sub-second response times, dramatically increasing your operational efficiency.",
-    },
-    {
-      icon: <Shield className="h-8 w-8" />,
-      title: "Enterprise Security",
-      description:
-        "Bank-grade encryption and security protocols ensure your data remains protected while our agents work seamlessly in your environment.",
-    },
-    {
-      icon: <Clock className="h-8 w-8" />,
-      title: "24/7 Operations",
-      description:
-        "Never miss an opportunity with AI agents that work around the clock, handling customer inquiries and business processes continuously.",
-    },
-    {
-      icon: <TrendingUp className="h-8 w-8" />,
-      title: "Predictive Analytics",
-      description:
-        "Gain competitive advantages with AI-powered insights that predict market trends and optimize your business strategies.",
-    },
-    {
-      icon: <Users className="h-8 w-8" />,
-      title: "Seamless Integration",
-      description:
-        "Integrate effortlessly with your existing tools and workflows. Our agents adapt to your current systems without disruption.",
-    },
-    {
-      icon: <Bot className="h-8 w-8" />,
-      title: "Multi-Agent Collaboration",
-      description:
-        "Deploy specialized AI agents that work together, sharing knowledge and coordinating complex multi-step business processes.",
+        "Strategies designed to match individual financial goals and risk profiles. Each solution is built on data-driven insights for maximum relevance and effectiveness.",
     },
     {
       icon: <Lightbulb className="h-8 w-8" />,
-      title: "Continuous Learning",
+      title: "Sentiment-Aware Dynamic Models",
       description:
-        "Our agents evolve with your business, learning from every interaction to provide increasingly sophisticated automation solutions.",
+        "Deep learning models that incorporate market sentiment and adjust to evolving financial conditions. All insights remain precise and contextually relevant.",
+    },
+    {
+      icon: <Brain className="h-8 w-8" />,
+      title: "Autonomous Adaptive Intelligence",
+      description:
+        "An AI engine that learns from historical patterns and market shifts. Strategies continuously improve to deliver consistent and optimized outcomes.",
+    },
+    {
+      icon: <Shield className="h-8 w-8" />,
+      title: "Integrated Risk Management and Analytics",
+      description:
+        "Built-in tools for real-time risk evaluation and performance tracking. Automated stock selection and analytics ensure greater clarity and control.",
+    },
+    {
+      icon: <Users className="h-8 w-8" />,
+      title: "Solutions for Individual and Institutional Users",
+      description:
+        "A platform designed for both retail investors and financial institutions. Supports portfolio automation, strategy validation, and client engagement.",
+    },
+    {
+      icon: <Bot className="h-8 w-8" />,
+      title: "Access to Strategic Financial Intelligence",
+      description:
+        "A solution that addresses the gap in reliable market information. Delivers timely and actionable insights for better investment outcomes.",
+    },
+    {
+      icon: <Clock className="h-8 w-8" />,
+      title: "Flexible and Scalable Pricing Structure",
+      description:
+        "Freemium model for individuals with a ₹100 monthly subscription for advanced features. Customized plans for institutions based on service requirements.",
     },
   ];
 

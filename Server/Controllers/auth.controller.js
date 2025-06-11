@@ -22,7 +22,6 @@ const register = async (req, res) => {
         }
         // Create a new user
         const newUser = new User({ email });
-        // Send a welcome email
         const transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
